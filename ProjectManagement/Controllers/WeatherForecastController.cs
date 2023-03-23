@@ -29,6 +29,8 @@ namespace ProjectManagement.Controllers
             })
             .ToArray();
         }
+        
+        public string Summary { get; set; }
 
     }
 }
