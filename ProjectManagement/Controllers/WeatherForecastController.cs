@@ -34,6 +34,5 @@ namespace ProjectManagement.Controllers
         public string Result { get; set; }
         public string Result1 { get; set; }
         public string Result2 { get; set; }
-        public string Result3 { get; set; }
     }
 }
