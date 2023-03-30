@@ -66,7 +66,7 @@ namespace ProjectManagement.Controllers
             Console.WriteLine();
             employee.Salary();
             Console.ReadLine();
-
+            Console.Read();
         }
 
     }
