@@ -31,6 +31,7 @@ namespace ProjectManagement.Controllers
         }
         private int id;  //Field
         public string Summary { get; set; } //Property
-       
+        public string Test { get; set; }
+        //Test.Student GetStudent=new Test.Student();
     }
 }

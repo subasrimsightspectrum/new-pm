@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;  //Build Namespace
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,6 +10,8 @@ namespace ProjectManagement.Controllers
     {
         #region Default Constructor
         int a, b, c = 4; string d = "8"; string name = "";
+        int x = 3; //int - dtatype , x- variable, 3 -value <data type> <variable name> = <value>;
+      
         public ValuesController()
         {
             a = c; b = int.Parse(d);
@@ -64,7 +66,16 @@ namespace ProjectManagement.Controllers
             Console.WriteLine();
             employee.Salary();
             Console.ReadLine();
+
         }
 
     }
 }
+
+//namespace Test
+//{
+//    class Student
+//    {
+//        public int Id { get; set; }
+//    }
+//}
